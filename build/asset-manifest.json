@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5d4ef34b.css",
+    "main.js": "/static/js/main.b2ce6b3e.js",
+    "static/js/787.9da778c4.chunk.js": "/static/js/787.9da778c4.chunk.js",
+    "static/media/oppenheimer_poster.png": "/static/media/oppenheimer_poster.9b67585bdb99081c36cf.png",
+    "static/media/barbie_poster.png": "/static/media/barbie_poster.eee643681aa75c7050d2.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.5d4ef34b.css.map": "/static/css/main.5d4ef34b.css.map",
+    "main.b2ce6b3e.js.map": "/static/js/main.b2ce6b3e.js.map",
+    "787.9da778c4.chunk.js.map": "/static/js/787.9da778c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d4ef34b.css",
+    "static/js/main.b2ce6b3e.js"
+  ]
+}
