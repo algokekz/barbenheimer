@@ -5,18 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-         Barbenheimer'd
+        Click for your favorite movie: Barbie or Oppenheimer
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={require("./assets/barbie_poster.png")} className="App-logo" alt="barbie" />
+        <img src={require("./assets/oppenheimer_poster.png")} className="App-logo" alt="oppenheimer" />
+      
       </header>
     </div>
   );
