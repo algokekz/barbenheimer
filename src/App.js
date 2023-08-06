@@ -1,5 +1,6 @@
 import './App.css';
 import { Button } from './components/Button'
+import React from 'react';
 
 function App() {
   return (
@@ -9,11 +10,13 @@ function App() {
         Click for your favorite movie: Barbie or Oppenheimer!!!
         </p>
         <div className='App-column'>
-        <img src={require("./assets/barbie_poster.png")} className="App-logo" alt="barbie" />
-        <img src={require("./assets/oppenheimer_poster.png")} className="App-logo" alt="oppenheimer" />
-
+          <img src={require("./assets/barbie_poster.png")} className="App-logo" alt="barbie" />
+          <img src={require("./assets/oppenheimer_poster.png")} className="App-logo" alt="oppenheimer" />
         </div>
-
+        <div className='App-grid'>
+          <Button label = {"Barbie"} style = {barbieButton}/>
+          <Button label = {"Oppenheimer"} style = {oppenheimerButton} />
+        </div>
       </header>
     </div>
   );
@@ -22,9 +25,6 @@ function App() {
 const oppenheimerButton = {
   backgroundColor: "black",
   color: "white",
-  flexDirection: "row",
-  float: "left",
-  alignItems: "center",
   width: 100,
   height: 50,
   borderRadius: 100
@@ -33,9 +33,6 @@ const oppenheimerButton = {
 const barbieButton = {
   backgroundColor: "pink",
   color: "black",
-  flexDirection: "row",
-  float: "left",
-  alignItems: "center",
   width: 100,
   height: 50,
   borderRadius: 100
