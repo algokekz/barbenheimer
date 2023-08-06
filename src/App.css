@@ -4,13 +4,20 @@
 
 .App-logo {
   height: 50vmin;
-  padding-right: 50px;
   pointer-events: none;
+  padding-right: 10px;
 }
 
 .App-column {
   float: left;
 }
+
+.App-grid {
+  display: grid;
+  grid-template-columns: 250px 100px 10px;
+  grid-template-rows: 1fr;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
