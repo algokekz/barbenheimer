@@ -3,8 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50vmin;
+  padding-right: 50px;
   pointer-events: none;
+}
+
+.App-column {
+  float: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
